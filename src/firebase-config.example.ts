@@ -1,6 +1,9 @@
-// VoltAI — Firebase configuration.
+// VoltAI — Firebase configuration (TEMPLATE).
 //
-// >>> SETUP REQUIRED: paste your Firebase web app config here. <<<
+// Copy this file to firebase-config.ts and paste your own Firebase web
+// app config there. firebase-config.ts is gitignored and must NEVER be
+// committed — it holds a real API key.
+//
 // 1. Go to the Firebase console (https://console.firebase.google.com)
 //    and sign in as ketong.ardi@gmail.com.
 // 2. Create a project (e.g. "voltai"), open AI Services > AI Logic,
@@ -9,7 +12,7 @@
 //    for "Firebase AI Logic" to Unenforced (monitoring only) — the app does
 //    not initialise App Check, and enforcement blocks cloud calls with 401.
 // 3. Register a Web app in the project, copy the firebaseConfig object,
-//    and paste it below, replacing the placeholder values.
+//    and paste it into firebase-config.ts, replacing the placeholders.
 // 4. Rebuild (`npm run build`) and redeploy.
 //
 // Until real values are pasted, `CONFIGURED` stays false and VoltAI runs in

@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Firebase config holds a real API key — never commit it.
+# The repo carries firebase-config.example.ts as the template.
+src/firebase-config.ts
